@@ -57,6 +57,5 @@ export let tecnologias = [
         id: 10,
         nombre: 'github',
         url: './svg/git.svg'
-
     },
 ]

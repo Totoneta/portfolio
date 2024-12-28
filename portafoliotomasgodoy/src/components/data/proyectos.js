@@ -20,4 +20,11 @@ export let proyectos = [
         enalceaproyecto: 'https://isabelcocinaviandas.netlify.app/',
         tech: ['reactjs', 'css'],
     },
+    {
+        id: 103,
+        titulo: 'Ferretería Volta',
+        imgpath: './imgs/proyectos/ferreteriavoltaproyecto.jpg',
+        enalceaproyecto: 'https://ferreteriavolta.netlify.app/',
+        tech: ['reactjs', 'css'],
+    },
 ]
