@@ -1,0 +1,61 @@
+/* Tecnologías */
+.sobremitecnologiascontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    gap: 1rem;
+    width: max-content;
+    margin: 2rem auto;
+    border-top: 3px solid #36B6FF;
+    border-bottom: 3px solid #36B6FF;
+}
+
+.sobremitecnologiassubcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2.5rem;
+}
+
+.sobremitecnologia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+    transition: all .3s;
+    animation: rotar 7s infinite ease-in-out;
+}
+
+.sobremitecnologia>img {
+    height: 3rem;
+}
+
+.sobremitecnologia:hover {
+    scale: 130%;
+}
+
+@keyframes rotar {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    25%{
+        transform: rotateY(90deg);
+    }
+
+    50% {
+        transform: rotateY(180deg);
+    }
+    
+    75%{
+        transform: rotateY(90deg);
+    }
+
+    100% {
+        transform: rotateY(0deg);
+    }
+}

@@ -1,0 +1,64 @@
+.proyectocardcontainer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: max-content max-content max-content;
+    margin: 0 auto;
+    gap: 2rem;
+    padding: 8rem 2rem;
+}
+
+/* Cards */
+.proyectocardsubcontainer {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 25rem;
+    height: 25rem;
+    padding: 1rem;
+    background-color: #09092b;
+    border-radius: 20px;
+    border: 1px solid #36B6FF;
+}
+
+.proyectocardsubcontainer>img {
+    width: 100%;
+    height: 70%;
+}
+
+/* Texto */ 
+.proyectocardcontainertexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+}
+
+.proyectocardcontainertexto>h3 {
+    font-size: 25px;
+}
+
+.proyectocardcontainertexto>a {
+    padding: 1rem 2rem;
+    background-color: #dddddd;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all .3s;
+    color: #09092b;
+}
+
+.proyectocardcontainertexto>a:hover {
+    scale: 105%;
+}
+
+/* Tecnologias */
+.proyectocardcontainertecnologias {
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+}
