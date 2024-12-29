@@ -43,19 +43,40 @@
         transform: rotateY(0deg);
     }
 
-    25%{
+    25% {
         transform: rotateY(90deg);
     }
 
     50% {
         transform: rotateY(180deg);
     }
-    
-    75%{
+
+    75% {
         transform: rotateY(90deg);
     }
 
     100% {
         transform: rotateY(0deg);
     }
+}
+
+/* --------------------------------------------- */
+
+/* Mediaquerys 350px a 719px */
+@media (min-width: 350px) and (max-width: 719px) {
+
+    /* Tecnologías */
+    .sobremitecnologiascontainer {
+        padding: 2rem 1rem;
+        gap: .5rem;
+        width: 20rem;
+        margin: 1rem auto;
+    }
+
+    .sobremitecnologiassubcontainer {
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        gap: 2rem;
+    }
+
 }

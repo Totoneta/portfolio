@@ -44,3 +44,42 @@
 .proyectosenconjuntocontainerthelobbytexto>h2 {
     color: #36B6FF;
 }
+
+
+/* --------------------------------------------- */
+
+/* Mediaquerys 350px a 719px */
+@media (min-width: 350px) and (max-width: 719px) {
+    
+    .proyectosenconjuntocontainer>h3 {
+        font-size: 25px;
+        width: 20rem;
+    }
+    
+    /* THE LOBBY */
+    .proyectosenconjuntocontainerthelobby {
+        padding: 1rem;
+        flex-direction: column;
+    }
+    
+    .proyectosenconjuntocontainerthelobby>img {
+        width: 20rem;
+    }
+    
+    .proyectosenconjuntocontainerthelobbytexto {
+        width: 20rem;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 13px;
+    }
+    
+    .proyectosenconjuntocontainerthelobbytexto>h2 {
+        color: #36B6FF;
+    }
+
+
+
+}

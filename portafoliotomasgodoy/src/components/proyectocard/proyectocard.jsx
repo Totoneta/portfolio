@@ -33,13 +33,15 @@ export default function ProyectoCard() {
                             </div>
                             <div className="proyectocardcontainerresponsivo">
                                 {
-                                    e.responsive ? 
-                                    <div className="proyectocardcontainerresponsivocontainer">
-                                        <img src='/svg/desktop.svg' alt='Desktop' title='Desktop' />
-                                        <img src='/svg/phoneipad.svg' alt='Phone & Ipad' title='Phone & Ipad' /> 
-                                    </div>
-                                    : 
-                                    <img src='/svg/desktop.svg' alt='Desktop' title='Desktop' />
+                                    e.responsive ?
+                                        <div className="proyectocardcontainerresponsivocontainer">
+                                            <img src='/svg/desktop.svg' alt='Desktop' title='Desktop' />
+                                            <img src='/svg/phoneipad.svg' alt='Phone & Ipad' title='Phone & Ipad' />
+                                        </div>
+                                        :
+                                        <div className="proyectocardcontainerresponsivocontainer">
+                                            <img src='/svg/desktop.svg' alt='Desktop' title='Desktop' />
+                                        </div>
                                 }
                             </div>
                         </div>
