@@ -1,5 +1,5 @@
 import './tecnologias.css'
-import { tecnologias } from './../data/tecnologias.js'
+import { tecnologias } from './../../data/tecnologias.js'
 
 export function Tecnologias() {
 

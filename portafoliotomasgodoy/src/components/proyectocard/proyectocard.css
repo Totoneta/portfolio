@@ -19,7 +19,7 @@
     width: 25rem;
     height: 25rem;
     padding: 1rem;
-    background-color: #09092b;
+    background-color: #00000088;
     border-radius: 20px;
     border: 1px solid #36B6FF;
 }
@@ -29,7 +29,7 @@
     height: 70%;
 }
 
-/* Texto */ 
+/* Texto */
 .proyectocardcontainertexto {
     display: flex;
     flex-direction: column;
@@ -61,4 +61,19 @@
     position: absolute;
     bottom: 0;
     left: 1rem;
+}
+
+.proyectocardcontainertecnologias>img {
+    height: 1.5rem;
+}
+
+/* Responsive */
+.proyectocardcontainerresponsivo {
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+}
+
+.proyectocardcontainerresponsivo>img {
+    height: 1.5rem;
 }

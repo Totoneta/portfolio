@@ -5,6 +5,8 @@ export let proyectos = [
         imgpath: './imgs/proyectos/joyerianiksinproyecto.jpg',
         enalceaproyecto: 'https://niksinjoyeria.netlify.app/',
         tech: ['html', 'css', 'javascript'],
+        responsive: true,
+        
     },
     {
         id: 101,
@@ -12,6 +14,7 @@ export let proyectos = [
         imgpath: './imgs/proyectos/ropajproyecto.jpg',
         enalceaproyecto: 'https://ropaj.netlify.app/',
         tech: ['html', 'css', 'javascript'],
+        responsive: true,
     },
     {
         id: 102,
@@ -19,6 +22,7 @@ export let proyectos = [
         imgpath: './imgs/proyectos/isabelcocinaproyecto.jpg',
         enalceaproyecto: 'https://isabelcocinaviandas.netlify.app/',
         tech: ['reactjs', 'css'],
+        responsive: true,
     },
     {
         id: 103,
@@ -26,5 +30,6 @@ export let proyectos = [
         imgpath: './imgs/proyectos/ferreteriavoltaproyecto.jpg',
         enalceaproyecto: 'https://ferreteriavolta.netlify.app/',
         tech: ['reactjs', 'css'],
+        responsive: false,
     },
 ]

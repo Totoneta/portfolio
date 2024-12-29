@@ -1,15 +1,22 @@
 .modooscuroyclarocontainer {
     position: fixed;
+    z-index: 1000;
     top: 1rem;
     right: 1rem;
-    width: 9rem;
+    width: 10rem;
     height: 3rem;
     display: flex;
     gap: .5rem;
     justify-content: center;
     align-items: center;
+    background-color: #434343ab;
+    border-radius: 16px;
+    padding: 1rem .5rem;
 }
 
+/* --------------------------------------------- */
+
+/* Imgs */
 .modooscuroyclarocontainer>img {
     height: 2rem;
     width: 2rem;
@@ -26,6 +33,7 @@
     border-radius: 100px;
 }
 
+/* Bolita */
 .modooscuroyclarobolita {
     border-radius: 50%;
     border: 2px solid #36B6FF;
@@ -34,7 +42,34 @@
     cursor: pointer;
 }
 
+/* Alternación con react */
 .modoclaro {
     background-color: #fff;
     color: #000;
+}
+
+/* --------------------------------------------- */
+
+/* Mediaquerys 350px a 719px */
+@media (min-width: 350px) and (max-width: 719px) {
+    .modooscuroyclarocontainer {
+        top: .5rem;
+        right: .5rem;
+        width: 7rem;
+        height: 3rem;
+        gap: .2rem;
+        padding: 1rem .5rem;
+    }
+    
+    /* --------------------------------------------- */
+    
+    /* Imgs */
+    .modooscuroyclarocontainer>img {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    
+    .modooscuroyclarocontainerbolita {
+        padding: .5rem .2rem;
+    }
 }

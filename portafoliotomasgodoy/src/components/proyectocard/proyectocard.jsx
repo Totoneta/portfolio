@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import './proyectocard.css'
-import { proyectos } from '../data/proyectos'
-import { tecnologias } from '../data/tecnologias'
+import { proyectos } from '../../data/proyectos'
+import { tecnologias } from '../../data/tecnologias'
 
 export default function ProyectoCard() {
 
@@ -18,17 +18,28 @@ export default function ProyectoCard() {
                                 <Link to={e.enalceaproyecto} target='_blank'>Visitar Proyecto</Link>
                             </div>
                             <div className="proyectocardcontainertecnologias">
-                            {
+                                {
                                     e.tech.map((ele) => {
                                         return tecnologias.map((tecnologia) => {
-                                           if (ele === tecnologia.nombre) {
+                                            if (ele === tecnologia.nombre) {
                                                 return (
-                                                    <img key={tecnologia.id} src={tecnologia.url} alt={tecnologia.nombre} />
+                                                    <img key={tecnologia.id} src={tecnologia.url} alt={tecnologia.nombre} title={tecnologia.nombre} />
                                                 )
-                                           }
-                                           return null;
+                                            }
+                                            return null;
                                         })
                                     })
+                                }
+                            </div>
+                            <div className="proyectocardcontainerresponsivo">
+                                {
+                                    e.responsive ? 
+                                    <div className="proyectocardcontainerresponsivocontainer">
+                                        <img src='/svg/desktop.svg' alt='Desktop' title='Desktop' />
+                                        <img src='/svg/phoneipad.svg' alt='Phone & Ipad' title='Phone & Ipad' /> 
+                                    </div>
+                                    : 
+                                    <img src='/svg/desktop.svg' alt='Desktop' title='Desktop' />
                                 }
                             </div>
                         </div>

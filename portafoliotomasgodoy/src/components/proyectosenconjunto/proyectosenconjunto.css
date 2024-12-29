@@ -39,5 +39,8 @@
     align-items: start;
     flex-direction: column;
     gap: 1rem;
-    color: #fff;
+}
+
+.proyectosenconjuntocontainerthelobbytexto>h2 {
+    color: #36B6FF;
 }

@@ -8,6 +8,7 @@
     text-align: center;
 }
 
+/* --------------------------------------------- */
 
 /* Img */
 .sobremifotocontainer {
@@ -26,6 +27,7 @@
     box-shadow: 0px 0px 10px #36B6FF;
 }
 
+/* --------------------------------------------- */
 
 /* Info Personal */
 .sobremitextocontainer {
@@ -65,5 +67,32 @@
     }
     100% {
         transform: rotateY(0deg);
+    }
+}
+
+/* --------------------------------------------- */
+
+/* Mediaquerys 350px a 719px */
+@media (min-width: 350px) and (max-width: 719px) {
+    .sobremicontainer {
+        padding: 4rem .5rem;
+        gap: .5rem;
+        flex-direction: column;
+    }
+    
+    /* --------------------------------------------- */
+    
+    /* Img */
+    .sobremifotocontainer>img {
+        width: 19rem;
+        height: 19rem;
+    }
+    
+    /* --------------------------------------------- */
+    
+    /* Info Personal */
+    .sobremitextocontainer>h1 {
+        font-size: 30px;
+        padding: 2rem 0 0 0;
     }
 }
