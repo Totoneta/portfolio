@@ -35,7 +35,7 @@ export let proyectos = [
     {
         id: 104,
         titulo: 'Burguer&Chips',
-        imgpath: './imgs/proyectos/burgerproyecto.jpg',
+        imgpath: './imgs/proyectos/burgerychipsproyecto.jpg',
         enalceaproyecto: 'https://burguerychips.netlify.app/',
         tech: ['reactjs', 'css', 'redux'],
         responsive: false,
