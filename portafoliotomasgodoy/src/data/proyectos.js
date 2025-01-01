@@ -6,7 +6,7 @@ export let proyectos = [
         enalceaproyecto: 'https://niksinjoyeria.netlify.app/',
         tech: ['html', 'css', 'javascript'],
         responsive: true,
-        
+
     },
     {
         id: 101,
@@ -38,6 +38,6 @@ export let proyectos = [
         imgpath: './imgs/proyectos/burgerychipsproyecto.jpg',
         enalceaproyecto: 'https://burguerychips.netlify.app/',
         tech: ['reactjs', 'css', 'redux'],
-        responsive: false,
+        responsive: false ,
     },
 ]
