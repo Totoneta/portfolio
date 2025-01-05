@@ -9,7 +9,7 @@
     gap: .5rem;
     justify-content: center;
     align-items: center;
-    background-color: #434343ab;
+    background-color: #253342;
     border-radius: 16px;
     padding: 1rem .5rem;
 }
@@ -29,14 +29,14 @@
     display: flex;
     align-items: center;
     justify-content: start;
-    border: 2px solid #36B6FF;
+    border: 2px solid #fff;
     border-radius: 100px;
 }
 
 /* Bolita */
 .modooscuroyclarobolita {
     border-radius: 50%;
-    border: 2px solid #36B6FF;
+    border: 2px solid #fff;
     height: 1.5rem;
     width: 1.5rem;
     cursor: pointer;
