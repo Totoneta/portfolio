@@ -1,52 +1,57 @@
 export let tecnologias = [
     {
         id: 1,
-        nombre: 'python',
+        nombre: 'PYTHON',
         url: './svg/python.svg'
     },
     {
         id: 2,
-        nombre: 'django',
+        nombre: 'DJANGO',
         url: './svg/django.svg'
     },
     {
         id: 3,
-        nombre: 'html',
+        nombre: 'HTML',
         url: './svg/html.svg'
     },
     {
         id: 4,
-        nombre: 'css',
+        nombre: 'CSS',
         url: './svg/css.svg'
     },
     {
         id: 5,
-        nombre: 'javascript',
+        nombre: 'JAVASCRIPT',
         url: './svg/javascript.svg'
     },
     {
         id: 6,
-        nombre: 'typescript',
+        nombre: 'TYPESCRIPT',
         url: './svg/typescript.svg'
     },
     {
         id: 7,
-        nombre: 'reactjs',
+        nombre: 'REACTJS',
         url: './svg/reactjs.svg'
     },
     {
         id: 8,
-        nombre: 'redux',
+        nombre: 'REDUX',
         url: './svg/redux.svg'
     },
     {
         id: 9,
-        nombre: 'git',
+        nombre: 'GIT',
         url: './svg/github.svg'
     },
     {
-        id: 10,
-        nombre: 'github',
+    id: 10,
+    nombre: 'GITHUB',
         url: './svg/git.svg'
-    }
+    },
+    {
+    id: 11,
+    nombre: 'SQLITE3',
+        url: './svg/sqlite3.png'
+    },
 ]
