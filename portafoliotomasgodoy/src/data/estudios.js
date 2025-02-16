@@ -7,7 +7,7 @@ export const estudios = [
     },
     {
         id: 201,
-        titulo: 'Ingles B',
+        titulo: 'Ingles',
         institucion: 'Centro Educativo Latinoamericano',
         fecha: 'Inicio: 2013-2016',
     },

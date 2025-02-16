@@ -61,15 +61,15 @@
 
 /* --------------------------------------------- */
 
-/* Mediaquerys 350px a 719px */
-@media (min-width: 350px) and (max-width: 719px) {
+/* Mediaquerys 350px a 700px */
+@media (min-width: 350px) and (max-width: 700px) {
 
     /* Tecnologías */
     .sobremitecnologiascontainer {
         padding: 2rem 1rem;
         gap: .5rem;
-        width: 20rem;
-        margin: 1rem auto;
+        width: 100%;
+        margin: 1rem auto 0 auto;
     }
 
     .sobremitecnologiassubcontainer {
@@ -78,4 +78,23 @@
         gap: 2rem;
     }
 
+}
+
+/* --------------------------------------------- */
+
+/* Mediaquerys 701px a 1300px */
+@media (min-width: 701px) and (max-width: 1300px) {    
+    /* Tecnologías */
+    .sobremitecnologiascontainer {
+        padding: 2rem .5rem;
+        gap: .5rem;
+        width: 100%;
+        margin: 1rem auto 0 auto;
+    }
+
+    .sobremitecnologiassubcontainer {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        gap: 2rem;
+    }
 }
