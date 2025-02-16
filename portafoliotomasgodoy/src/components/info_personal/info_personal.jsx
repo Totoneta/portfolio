@@ -7,7 +7,7 @@ export function InfoPersonal() {
         <section className="sobremicontainer">
 
             <div className="sobremifotocontainer">
-                <img src="./imgs/yo.jpg" alt="Tomás Godoy" />
+                <img src="./imgs/yo.png" alt="Tomás Godoy" />
             </div>
 
             <div className="sobremitextocontainer">

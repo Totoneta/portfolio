@@ -54,4 +54,9 @@ export let tecnologias = [
     nombre: 'SQLITE3',
         url: './svg/sqlite3.png'
     },
+    {
+    id: 11,
+    nombre: 'POSTMAN',
+        url: './imgs/tecnologias/postman.png'
+    },
 ]

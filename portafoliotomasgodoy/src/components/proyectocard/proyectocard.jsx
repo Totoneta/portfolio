@@ -15,6 +15,7 @@ export default function ProyectoCard() {
                             <img src={e.imgpath} alt={e.titulo} />
                             <div className="proyectocardcontainertexto">
                                 <h3>{e.titulo}</h3>
+                                <span>{e.descripcion}</span>
                                 <Link to={e.enalceaproyecto} target='_blank'>Visitar Proyecto</Link>
                             </div>
                             <div className="proyectocardcontainertecnologias">

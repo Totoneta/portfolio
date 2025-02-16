@@ -5,28 +5,28 @@
     grid-template-columns: max-content max-content max-content;
     margin: 0 auto;
     gap: 2rem;
-    padding: 8rem 2rem;
+    padding: 8rem 2rem 2rem 2rem;
 }
 
 /* Cards */
 .proyectocardsubcontainer {
     display: flex;
     position: relative;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
-    width: 25rem;
-    height: 25rem;
+    width: 28rem;
+    height: 33rem;
     padding: 1rem;
-    background-color: #253342;
-    border-radius: 20px;
+    background-color: #02002d;
+    border-radius: 10px;
     border: 1px solid #5e9188;
 }
 
 .proyectocardsubcontainer>img {
     width: 100%;
-    height: 70%;
+    height: 50%;
 }
 
 /* Texto */
@@ -41,11 +41,12 @@
 
 .proyectocardcontainertexto>h3 {
     font-size: 25px;
+    color: #04ae9a;
 }
 
 .proyectocardcontainertexto>a {
     padding: 1rem 2rem;
-    background-color: #dddddd;
+    background-color: #04ae9a;
     border-radius: 10px;
     text-decoration: none;
     transition: all .3s;

@@ -1,24 +1,30 @@
 .misestudiostarjetacontainer {
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     flex-direction: column;
-    width: 18rem;
-    color: #fff;
-    border: 2px solid #5e9188;
-    background-color: #253342;
+    width: 85%;
+    height: 15rem;
+    color: #02002d;
+    border: 2px solid #02002d;
+    background-color: #fff;
     padding: 1rem;
     gap: 1.5rem;
-    height: 20rem;
+    transition: all .5s;
 }
 
+.misestudiostarjetacontainer:hover {
+    scale: 105%;
+    color: #04ae9a;
+    border: 2px solid #04ae9a;
+}   
+
 .misestudiostarjetacontainer>h3 {
-    font-size: 32px;
-    width: 100%;
+    font-size: 36px;
 }
 
 .misestudiostarjetacontainer>h4 {
-    font-size: 20px;
+    font-size: 18px;
 
 }
  

@@ -9,11 +9,11 @@ export function HomePage() {
 
     return (
         <>
-            <InfoPersonal />
-            <Tecnologias />
             <ProyectoCard />
             <ProyectosEnConjunto />
             <MisEstudiosContainer />
+            <Tecnologias />
+            <InfoPersonal />
         </>
     )
 }

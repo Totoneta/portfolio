@@ -6,18 +6,18 @@ export function Tecnologias() {
 
     return (
         <div className="sobremitecnologiascontainer">
-            <div className="sobremitecnologiassubcontainer">
+            <ul className="sobremitecnologiassubcontainer">
                 {
                     tecnologias.map((e) => {
                         return (
-                            <div key={e.id} className="sobremitecnologia">
+                            <li key={e.id} className="sobremitecnologia">
                                 <img src={e.url} alt={e.nombre} />
-                            </div>
+                            </li>
                         )
                     })
                 }
 
-            </div>
+            </ul>
         </div>
     )
 }

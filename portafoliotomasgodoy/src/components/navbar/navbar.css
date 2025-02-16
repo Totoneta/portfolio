@@ -1,0 +1,41 @@
+.navbarcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #02002dda;
+    position: fixed;
+    width: 100%;
+    padding: 2rem 1rem;
+    height: max-content;
+    z-index: 1000;
+}
+
+.navbarcontainerlist {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    width: 100%;
+}
+
+.navbarcontaineritem {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: .3rem;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.navbarcontaineritem:hover {
+    color: #04ae9a
+}
+
+.navbarcontaineritem>img {
+    height: 1.5rem;
+
+}
