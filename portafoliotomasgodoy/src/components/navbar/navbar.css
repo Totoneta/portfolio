@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #02002dda;
+    background-color: #02002dbe;
     position: fixed;
     width: 100%;
     padding: 2rem 1rem;
@@ -34,7 +34,12 @@
     transition: all .3s;
 }
 
-.navbarcontaineritem:hover {
+.navbarcontaineritem>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbarcontaineritem>a:hover {
     color: #04ae9a
 }
 

@@ -6,7 +6,7 @@ import { tecnologias } from '../../data/tecnologias'
 export default function ProyectoCard() {
 
     return (
-        <section className='proyectocardcontainer'>
+        <section className='proyectocardcontainer' id='proyectocardcontainer'>
             {
                 proyectos.map((e) => {
 

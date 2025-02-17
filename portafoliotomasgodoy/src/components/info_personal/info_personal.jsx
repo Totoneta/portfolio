@@ -4,7 +4,7 @@ import './info_personal.css'
 export function InfoPersonal() {
 
     return (
-        <section className="sobremicontainer">
+        <section className="sobremicontainer" id='sobremicontainer'>
 
             <div className="sobremifotocontainer">
                 <img src="./imgs/yo.png" alt="Tomás Godoy" />

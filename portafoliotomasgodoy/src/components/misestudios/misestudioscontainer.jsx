@@ -6,7 +6,7 @@ import MisEstudiosTarjeta from './misestudiostarjeta/misestudiostarjeta'
 export default function MisEstudiosContainer() {
 
     return (
-        <section className="misestudioscontainer">
+        <section className="misestudioscontainer" id='misestudioscontainer'>
             <section className="misestudioscontainercontainer">
                 {
                     estudios.map((e) => {
